@@ -1,4 +1,5 @@
 title: Learning circles at Saint Paul Public Library
 description: Join your neighbors at Saint Paul Public Library to learn something together. 
 language: en
+partner_url: https://sppl.org
 exclude: [node_modules/]
