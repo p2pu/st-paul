@@ -1,7 +1,7 @@
 ---
 title: Facilitate
 welcome: |
-    (Partner name) is bringing learning circles to (city/country) in 2020! 
+    Saint Paul Public Library is bringing learning circles to Stain Paul in 2020! 
 
     Learning circles are free, interest-driven study groups that are led by a facilitator. The facilitator does not have to be an expert in the subject, so with a little practice and training, anybody can facilitate.
 

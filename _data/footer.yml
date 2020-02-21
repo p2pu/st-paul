@@ -1,13 +1,16 @@
 socials:
   - text: Instagram
-    url: https://www.instagram.com/p2puniversity/
+    url: https://www.instagram.com/stpaulpubliclibrary/
     icon_class: fa fa-instagram
   - text: Twitter
-    url: https://twitter.com/p2pu
+    url: https://twitter.com/stpaullibrary
     icon_class: fa fa-twitter
   - text: Facebook
-    url: https://www.facebook.com/P2PUniversity
+    url: https://www.facebook.com/stpaulpubliclibrary/
     icon_class: fa fa-facebook
+  - text: YouTube
+    url: https://www.youtube.com/user/stpaulpubliclibrary
+    icon_class: fa fa-youtube
 license: Unless otherwise noted, all the materials on this site are licensed under CC BY-SA 4.0.
 about_orgs: P2PU is a U.S. 501(c)3 registered in California.
 tos: 
