@@ -25,10 +25,22 @@ section {
   padding-bottom: $padding-md;
 }
 
+#about-header {
+  #header-img {
+    filter: brightness(50%);
+    &, img {
+      width: 100%;
+    }
+  }
+}
+
 #page-header {
   position: relative;
   color: #fff;
   overflow: hidden;
+
+  background: rgb(255,255,255);
+  background: linear-gradient(32deg, rgba(255,255,255,1) 0%, rgba(255,189,25,1) 48%);
 
   #header-img {
     position: absolute;
