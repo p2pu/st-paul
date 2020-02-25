@@ -7,11 +7,10 @@ bundles:
 <section id="about-header" class="container">
   <div class="row">
     <div class="col12">
-<div id="header-img" class="img-odverlay">
-    <img src="{{site.baseurl}}/assets/img/landing-banner.jpg" alt="" class="img-fluid">
-  </div>
-<div class="image-tint"></div>
-<p>P2PU Saint Paul team</p>
+      <div id="header-img" class="">
+        <img src="{{site.baseurl}}/assets/img/landing-banner.jpg" alt="" class="img-fluid">
+      </div>
+      <div class="image-tint"></div>
     </div>
   </div>
 </section>
@@ -35,14 +34,14 @@ bundles:
 
         <div class="faq-questions">
           {% for faq in page.faq %}
-            <div class="faq-container mb-4" data-aos="fade">
-              <div class="question">
-                <h3>{{faq.q}}</h3>
-              </div>
-              <div class="answer">
-                <p>{{faq.a | markdownify}}</p>
-              </div>
+          <div class="faq-container mb-4" data-aos="fade">
+            <div class="question">
+              <h3>{{faq.q}}</h3>
             </div>
+            <div class="answer">
+              <p>{{faq.a | markdownify}}</p>
+            </div>
+          </div>
           {% endfor %}
         </div>
 
