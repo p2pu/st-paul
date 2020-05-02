@@ -2,16 +2,16 @@
 layout: base
 ---
 <div class="page-wrapper">
-  <aside>
-    <svg viewBox="0 0 600 800" class="background-triangle background">
-      <polygon points="0,0 600,0 600,800" class="triangle-home"></polygon>
-    </svg>
+  <svg viewBox="0 0 600 800" class="background-triangle background d-none d-sm-block">
+    <polygon points="0,0 600,0 600,800" class="triangle-home"></polygon>
+  </svg>
 
-    <svg viewBox="0 0 600 800" class="background-triangle home">
-      <polygon points="0,0 600,0 600,800" class="triangle-home"></polygon>
-    </svg>
-  </aside>
+  <svg viewBox="0 0 600 800" class="background-triangle home d-none d-sm-block">
+    <polygon points="0,0 600,0 600,800" class="triangle-home"></polygon>
+  </svg>
+
   <header id="page-header">
+    <img src="{{ site.baseurl }}/assets/img/p2pu-bg-dots.svg" alt="" class="d-sm-none" />
     <div id="intro-section" class="container">
       <div class="row">
 
@@ -27,7 +27,7 @@ layout: base
           {% endif %}
         </div>
 
-        <div class="col-12 col-lg-5 video">
+        <div class="col-12 col-sm-8 col-lg-5 video">
           <div class="embed-responsive embed-responsive-16by9">
             <iframe class="embed-responsive-item" src="{{page.header_video}}" allowfullscreen></iframe>
           </div>
@@ -41,7 +41,7 @@ layout: base
     <div class="container">
       <div class="row">
         <div class="col-12 mb-3">
-          <h1>{{ page.search_title }}</h1>
+          <h2>{{ page.search_title }}</h2>
         </div>
       </div>
       <div id="learning-circle-search"></div>

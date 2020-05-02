@@ -33,14 +33,6 @@ section {
   }
 }
 
-aside {
-  position: absolute;
-  right: 0;
-  top: 0;
-  width: 40vw;
-  mask: url(../img/p2pu-bg-dots.svg);
-}
-
 .background-triangle {
   position: absolute;
   right: 0;
@@ -78,8 +70,8 @@ aside {
   }
 
   #intro-section {
-    padding-bottom: 5%;
     padding-top: 5%;
+    padding-bottom: 30px;
 
     .intro-text {
       padding: 30px;
@@ -229,11 +221,11 @@ footer {
         position: relative;
         margin: 0;
         padding-right: 30px;
-        padding-bottom: calc(8.35% + 30px);
+        padding-bottom: calc(8.3% + 30px);
       }
 
       .embed-responsive {
-        margin-top: calc(-8.3% - 30px);
+        margin-top: calc(-8.3% - 30px)
       }
 
       .row {
@@ -251,5 +243,21 @@ footer {
     align-items: unset;
     flex-direction: row;
     justify-content: flex-start;
+  }
+}
+
+@media (max-width: 576px) {
+  #page-header {
+    background-color: transparentize($p2pu-yellow, 0.5);
+
+    #intro-section {
+      .intro-text {
+        padding: 20px;
+      }
+
+      .embed-responsive {
+        margin-top: 20px;
+      }
+    }
   }
 }

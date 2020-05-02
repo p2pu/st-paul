@@ -7788,13 +7788,6 @@ section {
 #about-header #header-img, #about-header #header-img img {
   width: 100%; }
 
-aside {
-  position: absolute;
-  right: 0;
-  top: 0;
-  width: 40vw;
-  mask: url(/assets/dist/905ca13c93594f77c3c7fb52fdc19f78.svg); }
-
 .background-triangle {
   position: absolute;
   right: 0;
@@ -7823,8 +7816,8 @@ aside {
     font-weight: bolder;
     text-align: center; }
   #page-header #intro-section {
-    padding-bottom: 5%;
-    padding-top: 5%; }
+    padding-top: 5%;
+    padding-bottom: 30px; }
     #page-header #intro-section .intro-text {
       padding: 30px;
       background: #fff;
@@ -7907,7 +7900,7 @@ footer.home-footer {
         position: relative;
         margin: 0;
         padding-right: 30px;
-        padding-bottom: calc(8.35% + 30px); }
+        padding-bottom: calc(8.3% + 30px); }
       #page-header #intro-section .embed-responsive {
         margin-top: calc(-8.3% - 30px); }
       #page-header #intro-section .row {
@@ -7919,6 +7912,14 @@ footer.home-footer {
     align-items: unset;
     flex-direction: row;
     justify-content: flex-start; } }
+
+@media (max-width: 576px) {
+  #page-header {
+    background-color: rgba(255, 188, 26, 0.5); }
+    #page-header #intro-section .intro-text {
+      padding: 20px; }
+    #page-header #intro-section .embed-responsive {
+      margin-top: 20px; } }
 
 main {
   position: relative; }
